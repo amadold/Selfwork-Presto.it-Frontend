@@ -1,0 +1,10 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+}
+
+:root {
+    --dark-custom: #1D242D;
+    --grey-custom: rgb(132, 130, 128);
+    --accent-custom: #E31A0B;
+    --white-custom: rgb(234, 238, 242);
+}
