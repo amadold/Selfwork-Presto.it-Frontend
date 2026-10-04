@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "name": "Montaggio Video Commerciale",
+        "description": "Taglio, montaggio, correzione colore, sincronizzazione audio ed effetti visivi per video pubblicitari e promozionali.",
+        "category": "Servizio",
+        "price": "450.00"
+    },
+    {
+        "id": 2,
+        "name": "Motion Graphics e Animazione 2D/3D",
+        "description": "Creazione di sigle, titoli animati, elementi grafici esplicativi e animazioni complete per video aziendali.",
+        "category": "Servizio",
+        "price": "600.00"
+    },
+    {
+        "id": 3,
+        "name": "Color Grading e Correzione Colore",
+        "description": "Regolazione dell'esposizione, bilanciamento del bianco e stilizzazione cromatica per conferire un look cinematografico.",
+        "category": "Servizio",
+        "price": "300.00"
+    },
+    {
+        "id": 4,
+        "name": "Editing Video Brevi (Reels, Shorts, TikTok)",
+        "description": "Montaggio dinamico con sottotitoli animati, tagli rapidi ed effetti sonori ad alto ingaggio per piattaforme verticali.",
+        "category": "Servizio",
+        "price": "35.00"
+    },
+    {
+        "id": 5,
+        "name": "Mixaggio e Masterizzazione Audio per Video",
+        "description": "Rimozione del rumore di fondo, livellamento della voce, sonorizzazione (Foley) e integrazione della colonna sonora.",
+        "category": "Servizio",
+        "price": "200.00"
+    },
+    {
+        "id": 6,
+        "name": "Sottotitolaggio e Localizzazione Video",
+        "description": "Trascrizione, traduzione e sincronizzazione di sottotitoli in piu lingue per espandere il pubblico globale.",
+        "category": "Servizio",
+        "price": "10.00"
+    },
+    {
+        "id": 7,
+        "name": "Regia e Produzione Video In Loco",
+        "description": "Servizio completo di ripresa video con operatore, illuminazione professionale e gestione audio per eventi e interviste.",
+        "category": "Servizio",
+        "price": "800.00"
+    },
+    {
+        "id": 8,
+        "name": "Consulenza e Formazione Workflow Video",
+        "description": "Sessione individuale o aziendale per ottimizzare la gestione della produzione e il flusso di montaggio.",
+        "category": "Servizio",
+        "price": "90.00"
+    },
+    {
+        "id": 1,
+        "name": "Sony FX3",
+        "categoria_prodotto": "Hardware - Videocamera",
+        "description": "Videocamera cinematografica full-frame compatta con sensore da 12.1 MP, registrazione 4K 120fps e gamma dinamica S-Cinetone.",
+        "category": "Fisico",
+        "price": "4200.00"
+    },
+    {
+        "id": 2,
+        "name": "Blackmagic Pocket Cinema Camera 6K Pro",
+        "categoria_prodotto": "Hardware - Videocamera",
+        "description": "Videocamera digitale Super 35 con filtri ND integrati, innesto EF, registrazione RAW e schermo touch inclinabile.",
+        "category": "Fisico",
+        "price": "2550.00"
+    },
+    {
+        "id": 3,
+        "name": "DJI Ronin RS 3 Pro",
+        "categoria_prodotto": "Hardware - Stabilizzatore",
+        "description": "Stabilizzatore cardanico (gimbal) a 3 assi in fibra di carbonio per fotocamere e videocamere cinematografiche.",
+        "category": "Fisico",
+        "price": "879.00"
+    },
+    {
+        "id": 4,
+        "name": "Aputure LS 300d II",
+        "categoria_prodotto": "Hardware - Illuminazione",
+        "description": "Luce LED COB continua bilanciata a luce diurna (5500K) ad alta potenza per produzioni video professionali.",
+        "category": "Fisico",
+        "price": "1099.00"
+    },
+    {
+        "id": 5,
+        "name": "Rode Wireless PRO",
+        "categoria_prodotto": "Hardware - Audio",
+        "description": "Sistema di microfoni radiomobili a doppio canale con registrazione a bordo a 32-bit float e tecnologia GainAssist.",
+        "category": "Fisico",
+        "price": "449.00"
+    },
+    {
+        "id": 6,
+        "name": "Adobe Creative Cloud - Piano Tutte le App",
+        "categoria_prodotto": "Software - Suite Editing",
+        "description": "Software standard del settore per il montaggio video e la composizione visiva (Premiere Pro, After Effects, Photoshop).",
+        "category": "Licenza Software",
+        "price": "67.57"
+    },
+    {
+        "id": 7,
+        "name": "DaVinci Resolve Studio",
+        "categoria_prodotto": "Software - Editing & Color",
+        "description": "Piattaforma professionale completa per montaggio, correzione colore avanzata, effetti visivi e post-produzione audio.",
+        "category": "Licenza Software",
+        "price": "255.00"
+    },
+    {
+        "id": 8,
+        "name": "Final Cut Pro",
+        "categoria_prodotto": "Software - Editing",
+        "description": "Software di montaggio video ad alte prestazioni ottimizzato per l'architettura dei chip Apple Silicon su macOS.",
+        "category": "Licenza Software",
+        "price": "349.99"
+    },
+    {
+        "id": 9,
+        "name": "Pacchetto LUTs Cinematografici 4K",
+        "categoria_prodotto": "Asset Digitali - Color Grading",
+        "description": "Collezione di profili colore preimpostati per fotocamere Sony, Canon e Panasonic per una rapida stilizzazione visiva.",
+        "category": "Digitale",
+        "price": "49.00"
+    },
+    {
+        "id": 10,
+        "name": "Template Motion Graphics (MOGRT)",
+        "categoria_prodotto": "Asset Digitali - Grafica",
+        "description": "Libreria di titoli animati, transizioni, terzi inferiori (lower thirds) ed elementi grafici personalizzabili.",
+        "category": "Digitale",
+        "price": "29.00"
+    },
+    {
+        "id": 11,
+        "name": "Libreria di Effetti Sonori Pro (SFX)",
+        "categoria_prodotto": "Asset Digitali - Audio",
+        "description": "Oltre 2.000 campioni audio in alta risoluzione privi di diritti d'autore (whoosh, impatti e ambientazioni).",
+        "category": "Digitale",
+        "price": "79.00"
+    },
+    {
+        "id": 12,
+        "name": "Corso Online: Master in Color Grading e Montaggio",
+        "categoria_prodotto": "Formazione - Corso Digitale",
+        "description": "Percorso formativo completo dalla teoria del colore alle tecniche avanzate di montaggio narrativo.",
+        "category": "Educativo",
+        "price": "199.00"
+    }
+]

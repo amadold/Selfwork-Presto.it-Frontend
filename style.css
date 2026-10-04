@@ -1,6 +1,5 @@
 * {
     font-family: "Noto Sans", sans-serif;
-    /* background-color: var(--white-custom); */
 }
 
 :root {
@@ -30,6 +29,11 @@
     transition: .8s;
 }
 
+.bi-cart-fill,
+.bi-person {
+    color: var(--dark-custom);
+}
+
 .widthCustom {
     width: 100px;
 }
@@ -46,9 +50,11 @@
 
 .bg-hero {
     height: 60vh;
-    background: url('./media/Gemini_Generated_Image_mdy1remdy1remdy1.jpg'), linear-gradient(rgba(124, 124, 124, .5), rgba(120, 120, 120, .509));
+    background: linear-gradient(rgba(124, 124, 124, .5), rgba(120, 120, 120, .509));
     background-position: top;
-    background-size: contain;
+    background-image: url('./media/Gemini_Generated_Image_mdy1remdy1remdy1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, .16) 0px 3px 6px, rgba(0, 0, 0, .23) 0px 3px 6px;
 }
@@ -77,6 +83,11 @@
     touch-action: manipulation;
     vertical-align: baseline;
     width: auto;
+}
+
+.button-6 a {
+    text-decoration: none;
+    color: var(--white-custom);
 }
 
 .button-6:hover,
@@ -116,4 +127,70 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 0 auto;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+/* Categories */
+.accordion-flush {
+    width: 15vw;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.card-custom {
+    height: 200px;
+    width: 30%;
+    border: 2px solid var(--grey-custom);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#cardWrapper {
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 990px) {
+    .navbar-expand-lg {
+        background-color: var(--white-custom);
+    }
+
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    .bi-cart-fill,
+    .bi-person {
+        font-size: 1.5rem;
+    }
+
+    .clients {
+        height: fit-content;
+        padding-top: 15px;
+    }
+
+    .accordion-flush {
+        width: 50%;
+    }
+
+    .card-custom {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .bg-hero {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 30vh;
+        width: 100%;
+    }
 }
